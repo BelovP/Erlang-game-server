@@ -1,0 +1,45 @@
+#field{
+display:block; position:fixed;
+top:30px; left:30px; right:300px; bottom:30px;
+border:1px solid black;
+overflow:scroll
+}
+.cell{
+display:block; position:absolute;
+border:1px solid lightgray; background:whitesmoke;
+text-align:center; font-size:19px;]
+}
+
+#current-player{
+display:block; position:fixed;
+width:260px; right:20px; top:20px
+}
+
+#player-name{
+display:block;
+border:1px solid lightgray; margin-bottom:10px;
+height:40px; font-size:20px
+}
+
+#join-button{
+display:block; position:fixed;
+width:260; height:40px
+}
+
+#players-list{
+display:block; position:fixed;
+width:260px; right:20px; top:200px
+}
+
+#who-plays{
+display:block; position:fixed;
+width:100%; font-size:20px
+}
+
+#reset-button{
+display:block; position:fixed;
+width:200px; right:80px; bottom:40px; height:40px
+}
+
+
+
